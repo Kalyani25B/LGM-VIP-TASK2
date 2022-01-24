@@ -1,0 +1,25 @@
+.home{
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+    background-image:url(./bg1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.home .content{
+    flex: 1 1 640px;
+    margin-top: 10px;
+   text-align: center;
+    padding: 20px 25px;
+}
+.home .content p{
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 3px;
+    line-height: 80px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}

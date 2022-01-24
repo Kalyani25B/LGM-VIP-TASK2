@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+  }
+  html {
+    font-size: 62.5%;
+  }
+
+
+.main-nav{
+    display:grid;
+    grid-template-columns: 50% 10%;
+    color: rgb(24, 23, 88);
+    background-color: rgb(161, 205, 241);
+    height: 6rem;
+    width: 100%;
+    padding: 1rem;
+    padding-left: 3rem;
+}
+.main-nav h2{
+
+ font-size: 2.5rem;
+}
+/* button styling */
+.button button{
+ height: 3.7rem;
+ width: 120px;
+ justify-content: center;
+ background-color: rgb(166, 187, 250);
+ display:flex;
+ font-size: 2.5rem;
+ border-radius: 5px;
+ margin-left: 550px;
+}
+
+
